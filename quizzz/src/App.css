@@ -1,0 +1,131 @@
+.heading
+{
+    display: flex;
+    justify-content: space-between;    
+}
+
+.QuesCard
+{
+    min-height: 400px;
+    height:fit-content;
+    width: auto;
+    padding: 10px 40px  30px 40px;
+    margin:  50px 100px 0 100px;
+    flex-direction: column;
+    box-shadow: 0 0 10px rgb(210, 210, 210);
+    border-radius: 10px;
+}
+
+.Question
+{
+    box-shadow:0 0 10px rgb(210, 210, 210); 
+    border-radius: 10px;
+    background: rgb(9,41,121);
+    padding: 20px;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 50px;
+}
+
+.Answer
+{
+    box-shadow: 0 0 8px rgb(210, 210, 210);
+    border-radius: 10px;
+    padding: 10px;
+    padding-left: 30px;
+}
+.Answer:hover
+{
+    background-color: rgb(40, 130, 130);
+    color:white;
+}
+.Answer.selected {
+  background-color:black; /* Change background color for selected option */
+  color: white; /* Change text color for selected option */
+}
+
+.result
+{
+    color: green;
+    text-align: center;
+}
+
+
+.submit-btn {
+  background: #FF4742;
+  border: 1px solid #FF4742;
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-flexbox;
+  font-family: nunito,roboto,proxima-nova,"proxima nova",sans-serif;
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 16px;
+  min-height: 40px;
+  outline: 0;
+  padding: 12px 14px;
+  text-align: center;
+  text-rendering: geometricprecision;
+  text-transform: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  transition: 250ms;
+}
+
+.submit-btn:hover,
+.submit-btn:active 
+{
+  background-color: initial;
+  background-position: 0 0;
+  color: #FF4742;
+  opacity: 0.4  ;
+}
+
+.next {
+    background: #212121;
+    border: 1px solid #212121;
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-flexbox;
+    font-family: nunito,roboto,proxima-nova,"proxima nova",sans-serif;
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 16px;
+    min-height: 40px;
+    outline: 0;
+    padding: 12px 14px;
+    text-align: center;
+    text-rendering: geometricprecision;
+    text-transform: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: middle;
+    transition: 250ms;
+  }
+  
+  .next:hover,
+  .next:active {
+    background-color: initial;
+    background-position: 0 0;
+    color: #212121;
+  }
+  
+  .next:active {
+    opacity: 0.4  ;
+  }
+
+  .btns
+  {
+    display: flex;
+    justify-content: space-between;
+  } 
